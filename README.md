@@ -1,14 +1,17 @@
 # Advent_of_Code_2025
 
-Repo for Advent of Code 2025 challenges.
+Repo for [Advent of Code 2025](https://adventofcode.com/2025/) challenges.
 
-# Task 1
+# Day 1
+
+<details>
+<summary>Usage and example</summary>
 
 The script takes a text file with the task input, processes the rotations and calculates the number of times that the dial hits 0.
 
 For every hit, a success message is printed into the console. The total sum of left (L) and right (R) rotations is displayed for testing purposes.
 
-The starting point of 100,000 was chosen as a replacement for dial 0 to avoid writing a wrap-around solution for the dial crossing the 0 mark.
+The starting point of 100,000 was chosen as a replacement for dial 0 to avoid writing a wrap-around solution for the dial crossing the 0 mark. The resulting tuple shows the final position of the dial and the total number of 0 hits.
 
 ## Usage
 
@@ -40,4 +43,5 @@ Hit 3 at direction L and number 99
 sum_of_L is 340
 sum_of_R is 122
 (99832, 3)
-``` 
+```
+</details>
