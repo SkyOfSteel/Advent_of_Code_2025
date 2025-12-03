@@ -6,19 +6,16 @@ Repo for [Advent of Code 2025](https://adventofcode.com/2025/) challenges.
 
 <details>
 <summary>Usage and example</summary>
-<details>
-<summary>Usage and example</summary>
 
 The script takes a text file with the task input, processes the rotations and calculates the number of times that the dial stops exactly at 0.
 
 For every hit, a success message is printed into the console. The total sum of left (L) and right (R) rotations is displayed for testing purposes.
 
 The starting point of 100,000 was chosen as a replacement for dial 0 to avoid writing a wrap-around solution for the dial crossing the 0 mark. The resulting tuple shows the final position of the dial and the total number of 0 hits.
-The starting point of 100,000 was chosen as a replacement for dial 0 to avoid writing a wrap-around solution for the dial crossing the 0 mark. The resulting tuple shows the final position of the dial and the total number of 0 hits.
 
 ## Usage
 
-`python 3 main.py <file path>`
+`python3 main.py <file path>`
 
 ## Example
 
@@ -66,4 +63,4 @@ A better approach would be to clamp the number in the range (0, 100) and calcula
 
 ## Usage
 
-`python 3 main.py <file path>`
+`python3 main.py <file path>`
